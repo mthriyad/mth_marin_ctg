@@ -120,8 +120,16 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-5">
+                <div class="col-md-12 border-top-1">
+                    <p>
+                        &copy; 2020 Marin Engineers (Pvt) Ltd. All rights reserved.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+
 		
 	<!-- jQuery -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
