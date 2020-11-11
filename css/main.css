@@ -78,11 +78,17 @@
 .contact__info ul.contact__menu{
     justify-content: flex-end;
 }
-.contact__info ul.contact__menu li{
-    margin-left: 15px
+.contact__info ul.contact__menu li {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
 }
 .contact__info ul.contact__menu li a {
-    color: #222
+    color: #222;
+    font-size: 12px;
+}
+.contact__info ul.contact__menu li a i.fa {
+    margin-right: 5px;
 }
 
 /**
