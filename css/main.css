@@ -141,7 +141,7 @@
     /* border-radius: 4px; */
     font-weight: 400;
     color: #222;
-    font-size: 18px;
+    font-size: 14px;
 }
 .main__menu #main__menu li:hover a,.main__menu #main__menu li.active a{
     border-color: #3888db;
