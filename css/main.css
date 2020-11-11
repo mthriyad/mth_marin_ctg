@@ -1,0 +1,300 @@
+
+
+/**
+*   fontawesome icon font set
+*/
+
+.fa,.fab,.fal,.far,.fas{
+    font-family: 'FontAwesome'
+}
+
+/*
+*   Title Style
+*/
+.title-design {
+    overflow: hidden;
+}
+.title-design span{
+    position:relative;
+    display: inline-block;
+    padding-right: 10px
+}
+ .title-design span:before {
+    content: '';
+    width: 9999px;
+    display: block;
+    height: 1px;
+    background-color: #ebe6e6;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.title-design span:before{left: 100%}
+
+/**
+*   Top header section styles
+**/
+.top_header{
+    margin:0;
+    padding: 0;
+    min-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.top__header__left, .top__header__left .social__icons {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.social__icons ul.social__menu, .contact__info ul.contact__menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    min-height: 50px;
+    justify-content: start;
+    align-items: center;
+}
+.social__icons ul.social__menu li {
+    margin-right: 15px;
+}
+.social__icons ul.social__menu li a {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    color: #222
+}
+
+.top__header__right, .top__header__right .contact__info {
+    width: 100%;
+    height: 100%;
+}
+.contact__info ul.contact__menu{
+    justify-content: flex-end;
+}
+.contact__info ul.contact__menu li{
+    margin-left: 15px
+}
+.contact__info ul.contact__menu li a {
+    color: #222
+}
+
+/**
+*   Main header section styles
+**/
+
+.main__header{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    border-bottom: 1px solid #eee
+}
+.header__logo{
+    display: flex;
+    min-height: 100px;
+    max-height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.header__logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.header__logo a img{
+    height: 60px;
+    width: auto;
+}
+.main__menu{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.main__menu #main__menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100px;
+    max-height: 100px;
+    list-style: none
+}
+.main__menu #main__menu li a {
+    display: flex;
+    padding: 0 10px;
+    margin-right: 10px;
+    min-height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+    /* border-radius: 4px; */
+    font-weight: 400;
+    color: #222;
+    font-size: 18px;
+}
+.main__menu #main__menu li:hover a,.main__menu #main__menu li.active a{
+    border-color: #3888db;
+}
+.main__menu #main__menu li:last-child a{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+/**
+*   Home Page main slider Style
+**/
+.carousel-item img{
+    width: 100%;
+}
+span.carousel-control-prev-icon, span.carousel-control-next-icon {
+    background-color: #222;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+}
+
+/**
+*   Home Page content section Style
+**/
+.home_about_section, .home_activity_section {
+    margin: 0;
+    padding: 70px 0 70px;
+}
+.home_about_section {
+    background-color: #f9f9f9;
+    /* background-image: url(../img/about/about-bg.png); */
+}
+.home_about_title, .home_activity_title {
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #573e8a;
+    font-family: 'Raleway';
+}
+.home_about_title i.fa, .home_activity_title i.fa {
+    margin-right: 5px;
+}
+.home_about_details p {
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+.home_about_block ul, .home_activity_details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+}
+.home_about_block ul li, .home_activity_details ul li {
+    margin-top: 12px;
+}
+.home_about_block ul li i.fa, .home_activity_details ul li i.fa {
+    margin-right: 5px;
+}
+.home_activity_details img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.4);
+    -webkit-border-radius:0 0 10px 1px rgba(0,0,0,.4);
+    -moz-border-radius:0 0 10px 1px rgba(0,0,0,.4);
+    -ms-border-radius:0 0 10px 1px rgba(0,0,0,.4);
+    -o-border-radius:0 0 10px 1px rgba(0,0,0,.4);
+}
+.home_activity_details ul{
+    padding: 0;
+}
+.home_activity_details ul li i.fa{
+    font-size: 20px
+}
+
+.footer {
+    margin: 0;
+    padding: 50px 0;
+    background-color: #222222;
+    color: #aaaaaa;
+}
+.widget-title {
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.widget ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.widget ul li {
+    display: block;
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.widget li .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.5);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.widget ul li img {
+    /* width: 80px; */
+    height: 80px;
+}
+.widget li:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.widget li .overlay a {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.widget table td:first-child i.fa {
+    padding-right: 12px;
+    font-size: 17px;
+}
+.widget table td {
+    font-family: 'Raleway';
+}

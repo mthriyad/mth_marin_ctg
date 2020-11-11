@@ -1,0 +1,75 @@
+/* This CSS for small Mobile*/
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+	
+	
+	
+	
+	
+	
+	
+}
+
+/* This CSS for Tablet */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+}
+
+/* This CSS for Medium Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+	
+	
+
+}
+
+/* This CSS for Medium Devices */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+/**
+*   Home Page main slider Style
+**/
+    .carousel-item{
+        height: 450px;
+    }
+		
+
+}
+/* This CSS for Medium Devices */
+@media only screen and (min-width: 1200px) and (max-width: 1899px) {
+/**
+*   Home Page main slider Style
+**/
+    .carousel-item{
+        height: 450px;
+    }
+}
+
+
+
+
+/* This CSS for Large Devices */
+@media (min-width: 1900px)  {
+    
+/**
+*   Home Page main slider Style
+**/
+    .carousel-item{
+        height: 580px;
+    }
+
+
+}
+
+
